@@ -81,14 +81,16 @@ cover.html
     </body>
 </html>
 
+
+
 style.css
 
 
 .page
 {
     background-image: url('bg.jpg');
-    height:800px;
-     width:800px;
+    height:820px;
+     width:600px;
      margin: 30px;
      padding:20px;
      border-radius: 10px;
@@ -116,18 +118,18 @@ h2
 
 .box
 {
-    width: 700;
+    width: 500;
     height:50;
     background-color: gainsboro;
     border-left: 4px solid steelblue;
     padding: 12px;
-    margin-left: 30px;
+    margin-left: 10px;
 }
 .container
 {
     
-    width: 700;
-    margin-left: 30px;
+    width: 500;
+    margin-left: 10px;
     background:gainsboro;   
     border:4px solid plum;         
     padding: 10px;
@@ -148,7 +150,7 @@ h2
     padding: 15px;
     border-radius: 4px;
     flex-direction: row;
-    gap: 300px;
+    gap: 200px;
 }
 
 .price
@@ -176,7 +178,7 @@ span
 
 
 ## OUTPUT:
-![alt text](image-1.png)
+![alt text](image-2.png)
 
 
 ## RESULT:
