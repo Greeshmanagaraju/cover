@@ -1,5 +1,5 @@
 # Ex.05 Book Cover Page Design
-## Date:12-12-2025
+## Date:16-12-2025
 
 ## AIM:
 To design a book back cover page using HTML and CSS.
@@ -42,10 +42,11 @@ cover.html
     </head>
     <body>
         <i>
-            <h1>About the Book</h1>
+            <div class="page">
+                <h1>About the Book</h1>
         <hr>
         <p>
-            The book "Python Crash Course" by Eric Matthes is a bestselling programming book designed for beginners, providing a hands-on, project-based introduction to Python programming.
+            The book Python Crash Course" by Eric Matthes is a bestselling programming book designed for beginners, providing a hands-on, project-based introduction to Python programming.
         </p>
         <h2><u>Overview of the Book:</u></h2>
         <p>
@@ -73,56 +74,60 @@ cover.html
             </i>
             <b>
              <div class="price">  
-             <span class="price">PRICE: Rs.500</span>
+             <span>PRICE: Rs.500</span>
             </div>
             </b>
-        </div>
-    
-       
+            </div>
     </body>
 </html>
 
 style.css
 
-body
+
+.page
 {
     background-image: url('bg.jpg');
-    background-size: cover;
+    height:800px;
+     width:800px;
+     margin: 30px;
+     padding:20px;
+     border-radius: 10px;
+     border:3px solid;
 }
 
 h1
 {
     color: whitesmoke;
     text-align: center;
-    margin-left: 50px;
+    margin-left: 10px;
 }
 
 h2
 {
     color: white;
-    margin-left: 50px;
+    margin-left: 10px;
 }
 
-p
+.item p
 {
-    color: white;
-    margin-left: 50px;
+    color: black;
+    margin-left: 0px;
 }
 
 .box
 {
-    width: 900;
+    width: 700;
     height:50;
     background-color: gainsboro;
     border-left: 4px solid steelblue;
     padding: 12px;
-    margin-left: 50px;
+    margin-left: 30px;
 }
 .container
 {
     
-    width: 900;
-    margin-left: 50px;
+    width: 700;
+    margin-left: 30px;
     background:gainsboro;   
     border:4px solid plum;         
     padding: 10px;
@@ -143,12 +148,13 @@ p
     padding: 15px;
     border-radius: 4px;
     flex-direction: row;
-    gap: 800px;
+    gap: 300px;
 }
 
 .price
 {
     color: red;
+    margin-left: 0px;
 }
 
 h3
@@ -158,18 +164,20 @@ h3
 
 div p
 {
-    color:black;
+    color:white;
     margin-left: 0;
 }
 span
 {
-    margin-left: 100;
+    margin: left 20px;;
 }
+
 ```
 
 
 ## OUTPUT:
-![alt text](image.png)
+![alt text](image-1.png)
+
 
 ## RESULT:
 The program for designing book back cover page using HTML and CSS is completed successfully.
